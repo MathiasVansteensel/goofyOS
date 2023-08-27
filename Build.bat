@@ -35,7 +35,7 @@ EXIT /B 0
 
 :AssembleBootImg
 
-del "%TMP_BOOT_ASM%"
+if exist "%TMP_BOOT_ASM%" del "%TMP_BOOT_ASM%"
 
 rem Make tmp kernel file and add kernel offset footer
 copy /b "%BOOT_ASSEMBLY_FILE%" "%TMP_BOOT_ASM%" > nul
