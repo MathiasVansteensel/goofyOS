@@ -1,0 +1,1 @@
+BROOOO WTF, the kernel offset in tmp/temp_boot.asm doesnt want to be in hex.... wtfff (change needed in build.bat)
