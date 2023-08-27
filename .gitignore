@@ -1,0 +1,6 @@
+#ignore bin folder, put seperately in releases and generated on build
+Bin/
+
+#ignore vscode env settings except launch.json used for building the os
+.vscode/
+!.vscode/launch.json
